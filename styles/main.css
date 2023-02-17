@@ -736,7 +736,7 @@ html {
 .header {
   min-height: 1080px;
   padding: 20px 0 80px 0;
-  background: url("../img/background.jpg") center center/cover no-repeat;
+  background: url("../img/background.svg") center center/cover no-repeat;
 }
 
 .header__svg {
