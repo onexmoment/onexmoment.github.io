@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Createx</title>
-        <meta name="theme-color" content="#fff">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
-        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
-        <link rel="stylesheet" href="styles/main.css">
-    </head>
-    <body>
-        
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Createx</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    
     <section id="up" class="header">
         <div class="container">
             
         <nav class="menu">
             <a href="#" class="menu__logo"><img src="img/sprites/logo.svg" alt="logo"></a>
             <ul class="menu__item">
-                <li><a href="#" class="menu__link">About Us</a></li>
-                <li><a href="#" class="menu__link">Courses</a></li>
-                <li><a href="#" class="menu__link">Events</a></li>
-                <li><a href="#" class="menu__link">Blog</a></li>
-                <li><a href="#" class="menu__link">Contacts</a></li>
+                <li><a href="#about" class="menu__link">About Us</a></li>
+                <li><a href="#courses" class="menu__link">Courses</a></li>
+                <li><a href="#events" class="menu__link">Events</a></li>
+                <li><a href="#blog" class="menu__link">Blog</a></li>
+                <li><a href="#footer" class="menu__link">Contacts</a></li>
             </ul>
             <button class="button button_header">Get consultation</button>    
             <div class="menu__profile">
@@ -66,8 +68,8 @@
             </div>
         </div>
     </section>
-         
-    <section class="about">
+     
+    <section id="about" class="about">
         <div class="container">
             <div class="about__wrapper">
                 <img src="img/02.png" alt="02" class="about__img">
@@ -87,8 +89,8 @@
             </div>
         </div>
     </section>
-        
-    <section class="courses">
+    
+    <section id="courses" class="courses">
         <div class="container">
             <div class="courses__wrapper">
                 <div class="courses__header">
@@ -173,70 +175,78 @@
             </div>
         </div>
     </section>
-        
-    <section class="benefits">
-        <div class="container">
-            <div class="title title_center">Our benefits</div>
-            <div class="subtitle subtitle_center">That’s how we do it</div>
+    	
+	<section id="benefits" class="benefits">
+		<div class="container">
+			<div class="title title_center">Our benefits</div>
+			<div class="subtitle subtitle_center">That’s how we do it</div>
 
-            <ul class="benefits__tabs">
-                <li class="benefits__tab benefits__tab_active">
-                    <svg class="benefits__svg">
-                        <use xlink:href="img/sprites/sprite.svg#Star"></use>
-                    </svg>
-                    Experienced Tutors
-                </li>
-                <li class="benefits__tab">
-                    <svg class="benefits__svg">
-                        <use xlink:href="img/sprites/sprite.svg#like"></use>
-                    </svg>
-                    Feedback & Support   
-                </li>
-                <li class="benefits__tab">
-                    <svg class="benefits__svg">
-                        <use xlink:href="img/sprites/sprite.svg#Layouts"></use>
-                    </svg>           
-                    24/7 Online Library
-                </li>
-                <li class="benefits__tab">
-                    <svg class="benefits__svg">
-                        <use xlink:href="img/sprites/sprite.svg#Chat"></use>
-                    </svg>                    
-                    Community
-                </li>
-            </ul>
+			<ul class="benefits__tabs">
+				<li class="benefits__tab benefits__tab_active">
+					<svg class="benefits__svg">
+						<use xlink:href="img/sprites/sprite.svg#Star"></use>
+					</svg>
+					Experienced Tutors
+				</li>
+				<li class="benefits__tab">
+					<svg class="benefits__svg">
+						<use xlink:href="img/sprites/sprite.svg#like"></use>
+					</svg>
+					Feedback & Support
+				</li>
+				<li class="benefits__tab">
+					<svg class="benefits__svg">
+						<use xlink:href="img/sprites/sprite.svg#Layouts"></use>
+					</svg>
+					24/7 Online Library
+				</li>
+				<li class="benefits__tab">
+					<svg class="benefits__svg">
+						<use xlink:href="img/sprites/sprite.svg#Chat"></use>
+					</svg>
+					Community
+				</li>
+			</ul>
 
-            <div class="benefits__content benefits__content_active">
-                <div class="benefits__text">
-                    <div class="benefits__title">Only practicing tutors</div>
-                    <div class="benefits__descr">Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa ut amet. Amet enim, nisi tempus vehicula.</div>
-                </div>
-                <img src="img/03.png" alt="03" class="benefits__img">
-            </div>
+			<div class="benefits__content benefits__content_active">
+				<div class="benefits__text">
+					<div class="benefits__title">Only practicing tutors</div>
+					<div class="benefits__descr">Urna nisi, arcu cras nunc. Aenean quam est lobortis mi non fames dictum
+						suspendisse. Morbi mauris cras massa ut dolor quis sociis mollis augue. Nunc, sodales tortor sit
+						diam mi amet massa. Fermentum diam diam sociis vestibulum. Nulla nisl accumsan, id dignissim massa
+						ut amet. Amet enim, nisi tempus vehicula.</div>
+				</div>
+				<img src="img/03.png" alt="03" class="benefits__img">
+			</div>
 
-            <div class="benefits__content">
-                <div class="benefits__text">
-                    <div class="benefits__title">Feedback</div>
-                    <div class="benefits__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quasi tempora consequuntur unde, quia voluptas asperiores repellendus, tenetur hic autem est dolorem aliquid sequi sint eius illum. Animi, fuga pariatur?</div>
-                </div>
-            </div>
-            <div class="benefits__content">
-                <div class="benefits__text">
-                    <div class="benefits__title">Awesome online library</div>
-                    <div class="benefits__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quasi tempora consequuntur unde, quia voluptas asperiores repellendus, tenetur hic autem est dolorem aliquid sequi sint eius illum. Animi, fuga pariatur?</div>
-                </div>
-            </div>
-            <div class="benefits__content">
-                <div class="benefits__text">
-                    <div class="benefits__title">Big community</div>
-                    <div class="benefits__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quasi tempora consequuntur unde, quia voluptas asperiores repellendus, tenetur hic autem est dolorem aliquid sequi sint eius illum. Animi, fuga pariatur?</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-        
-    <section class="events">
+			<div class="benefits__content">
+				<div class="benefits__text">
+					<div class="benefits__title">Feedback</div>
+					<div class="benefits__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quasi
+						tempora consequuntur unde, quia voluptas asperiores repellendus, tenetur hic autem est dolorem
+						aliquid sequi sint eius illum. Animi, fuga pariatur?</div>
+				</div>
+			</div>
+			<div class="benefits__content">
+				<div class="benefits__text">
+					<div class="benefits__title">Awesome online library</div>
+					<div class="benefits__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quasi
+						tempora consequuntur unde, quia voluptas asperiores repellendus, tenetur hic autem est dolorem
+						aliquid sequi sint eius illum. Animi, fuga pariatur?</div>
+				</div>
+			</div>
+			<div class="benefits__content">
+				<div class="benefits__text">
+					<div class="benefits__title">Big community</div>
+					<div class="benefits__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis quasi
+						tempora consequuntur unde, quia voluptas asperiores repellendus, tenetur hic autem est dolorem
+						aliquid sequi sint eius illum. Animi, fuga pariatur?</div>
+				</div>
+			</div>
+		</div>
+	</section>
+    
+    <section id="events" class="events">
         <div class="container">
             <div class="title title_center">Our Events</div>
             <div class="subtitle subtitle_center">Lectures & workshops</div>
@@ -286,8 +296,8 @@
             </div>
         </div>
     </section>
-        
-    <section class="certificate">
+    
+    <section id="certificate" class="certificate">
         <div class="container">
             <div class="title">Createx Certificate</div>
             <div class="subtitle">Your expertise will<br> be confirmed</div>
@@ -300,8 +310,8 @@
             <img src="img/04.png" alt="04" class="certificate__image">
         </div>
     </section>
-        
-    <section class="carousel">
+    
+    <section id="carousel" class="carousel">
         <div class="container">
 
             <div class="title">Best tutors are all here</div>
@@ -413,95 +423,102 @@
             </button>
         </div>
     </section>
-        
-    <section class="blog">
-        <div class="container">
-            <div class="blog__wrapper">
-                <div class="blog__header">
-                    <div class="title">Our blog</div>
-                    <div class="subtitle">Latest posts</div>
-                </div>
-                <button class="button button_blog">Go to blog</button>
-            </div>
-            <div class="blog__block">
-                <div class="blog-item">
-                    <div class="blog-item__header">
-                        <img src="img/sprites/mic.svg" alt="mic">
-                        <div class="blog-item__type">Podcast</div>
-                    </div>
-                    <img src="img/latest1.png" alt="1" class="blog-item__img">
-                    <div class="blog-item__descr">
-                        <div class="blog-item__proff">Marketing</div>
-                        <div class="blog-item__date">
-                            <img src="img/sprites/Calendar.svg" alt="calendar">
-                            September 4, 2020
-                        </div>
-                        <div class="blog-item__time">
-                            <img src="img/sprites/Clock.svg" alt="clock">
-                            36 min
-                        </div>
-                    </div>
-                    <div class="blog-item__title">What is traffic arbitrage and does it really make money?</div>
-                    <div class="blog-item__text">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis proin dignissim lacus, purus gravida...</div>
-                    <a href="#" class="blog-item__link">
-                        Listen
-                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z"/>
-                        </svg>
-                    </a>
-                </div>
-                <div class="blog-item">
-                    <div class="blog-item__header">
-                        <img src="img/sprites/blogplay.svg" alt="play">
-                        <div class="blog-item__type">Video</div>
-                    </div>
-                    <img src="img/latest2.png" alt="2" class="blog-item__img">
-                    <div class="blog-item__descr">
-                        <div class="blog-item__proff">Management</div>
-                        <div class="blog-item__date">
-                            <img src="img/sprites/Calendar.svg" alt="calendar">
-                            August 25, 2020
-                        </div>
-                        <div class="blog-item__time">
-                            <img src="img/sprites/Clock.svg" alt="clock">
-                            45 min
-                        </div>
-                    </div>
-                    <div class="blog-item__title">What to do and who to talk to if you want to get feedback on the product</div>
-                    <div class="blog-item__text">Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh urna urna sagittis faucibus...</div>
-                    <a href="#" class="blog-item__link">
-                        Watch
-                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z"/>
-                        </svg>
-                    </a>
-                </div>
-                <div class="blog-item">
-                    <div class="blog-item__header">
-                        <img src="img/sprites/Files.svg" alt="files">
-                        <div class="blog-item__type">Article</div>
-                    </div>
-                    <img src="img/latest3.png" alt="3" class="blog-item__img">
-                    <div class="blog-item__descr">
-                        <div class="blog-item__proff">Design</div>
-                        <div class="blog-item__date">
-                            <img src="img/sprites/Calendar.svg" alt="calendar">
-                            August 8, 2020
-                        </div>    
-                    </div>
-                    <div class="blog-item__title">Should you choose a creative profession if you are attracted to creativity?</div>
-                    <div class="blog-item__text">Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor, viverra sed vulputate ultrices...</div>
-                    <a href="#" class="blog-item__link">
-                        Read
-                        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z"/>
-                        </svg>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-         
+    <section id="blog" class="blog">
+	<div class="container">
+		<div class="blog__wrapper">
+			<div class="blog__header">
+				<div class="title">Our blog</div>
+				<div class="subtitle">Latest posts</div>
+			</div>
+			<button class="button button_blog">Go to blog</button>
+		</div>
+		<div class="blog__block">
+			<div class="blog-item">
+				<div class="blog-item__header">
+					<img src="img/sprites/mic.svg" alt="mic">
+					<div class="blog-item__type">Podcast</div>
+				</div>
+				<img src="img/latest1.png" alt="1" class="blog-item__img">
+				<div class="blog-item__descr">
+					<div class="blog-item__proff">Marketing</div>
+					<div class="blog-item__date">
+						<img src="img/sprites/Calendar.svg" alt="calendar">
+						September 4, 2020
+					</div>
+					<div class="blog-item__time">
+						<img src="img/sprites/Clock.svg" alt="clock">
+						36 min
+					</div>
+				</div>
+				<div class="blog-item__title">What is traffic arbitrage and does it really make money?</div>
+				<div class="blog-item__text">Pharetra, ullamcorper iaculis viverra parturient sed id sed. Convallis
+					proin dignissim lacus, purus gravida...</div>
+				<a href="#" class="blog-item__link">
+					Listen
+					<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd"
+							d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z" />
+					</svg>
+				</a>
+			</div>
+			<div class="blog-item">
+				<div class="blog-item__header">
+					<img src="img/sprites/blogplay.svg" alt="play">
+					<div class="blog-item__type">Video</div>
+				</div>
+				<img src="img/latest2.png" alt="2" class="blog-item__img">
+				<div class="blog-item__descr">
+					<div class="blog-item__proff">Management</div>
+					<div class="blog-item__date">
+						<img src="img/sprites/Calendar.svg" alt="calendar">
+						August 25, 2020
+					</div>
+					<div class="blog-item__time">
+						<img src="img/sprites/Clock.svg" alt="clock">
+						45 min
+					</div>
+				</div>
+				<div class="blog-item__title">What to do and who to talk to if you want to get feedback on the product
+				</div>
+				<div class="blog-item__text">Neque a, senectus consectetur odio in aliquet nec eu. Ultricies ac nibh
+					urna urna sagittis faucibus...</div>
+				<a href="#" class="blog-item__link">
+					Watch
+					<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd"
+							d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z" />
+					</svg>
+				</a>
+			</div>
+			<div class="blog-item">
+				<div class="blog-item__header">
+					<img src="img/sprites/Files.svg" alt="files">
+					<div class="blog-item__type">Article</div>
+				</div>
+				<img src="img/latest3.png" alt="3" class="blog-item__img">
+				<div class="blog-item__descr">
+					<div class="blog-item__proff">Design</div>
+					<div class="blog-item__date">
+						<img src="img/sprites/Calendar.svg" alt="calendar">
+						August 8, 2020
+					</div>
+				</div>
+				<div class="blog-item__title">Should you choose a creative profession if you are attracted to
+					creativity?</div>
+				<div class="blog-item__text">Curabitur nisl tincidunt eros venenatis vestibulum ac placerat. Tortor,
+					viverra sed vulputate ultrices...</div>
+				<a href="#" class="blog-item__link">
+					Read
+					<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd"
+							d="M14.7929 6.79289C15.1834 6.40237 15.8166 6.40237 16.2071 6.79289L20.7071 11.2929C21.0976 11.6834 21.0976 12.3166 20.7071 12.7071L16.2071 17.2071C15.8166 17.5976 15.1834 17.5976 14.7929 17.2071C14.4024 16.8166 14.4024 16.1834 14.7929 15.7929L17.5858 13H4C3.44772 13 3 12.5523 3 12C3 11.4477 3.44772 11 4 11H17.5858L14.7929 8.20711C14.4024 7.81658 14.4024 7.18342 14.7929 6.79289Z" />
+					</svg>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+     
     <section class="subscribe">
         <img src="img/illustration.svg" alt="1" class="subscribe__img">
         <img src="img/illustration.svg" alt="1" class="subscribe__img">
@@ -517,8 +534,8 @@
             </div>
         </div>
     </section>
-        
-    <footer class="footer">
+    
+    <footer id="footer" class="footer">
         <div class="container">
             <div class="footer__wrapper">
                 <div class="footer__about">
@@ -561,11 +578,11 @@
                 </div>
                 <div class="footer__list">
                     <div class="footer__header">SITE MAP</div>
-                    <a href="#">About Us</a>
-                    <a href="#">Courses</a>
-                    <a href="#">Events</a>
-                    <a href="#">Blog</a>
-                    <a href="#">Contacts</a>
+                    <a href="#about">About Us</a>
+                    <a href="#courses">Courses</a>
+                    <a href="#events">Events</a>
+                    <a href="#blog">Blog</a>
+                    <a href="#footer">Contacts</a>
                 </div>
                 <div class="footer__list">
                     <div class="footer__header">COURSES</div>
@@ -621,9 +638,10 @@
         </div>
     </footer>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
-        <script src="js/vendor.js"></script>
-        <script src="js/main.js"></script>
-    </body>
-</html> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
