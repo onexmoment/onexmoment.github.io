@@ -669,6 +669,10 @@ html {
   text-align: center;
 }
 
+.title_center_mt80 {
+  margin-top: 80px;
+}
+
 .title_center_mt180 {
   margin-top: 180px;
 }
@@ -1179,8 +1183,14 @@ html {
 }
 
 .certificate {
-  height: 575px;
+  min-height: 575px;
   padding: 120px 0;
+}
+
+.certificate__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .certificate__text {
@@ -1191,7 +1201,7 @@ html {
   color: #424551;
 }
 
-.certificate__wrapper {
+.certificate__block {
   width: 395px;
   display: flex;
   justify-content: space-between;
@@ -1200,9 +1210,14 @@ html {
 }
 
 .certificate__image {
+  display: block;
   position: absolute;
   right: -60px;
   top: 0;
+}
+
+.certificate__image_static {
+  position: static;
 }
 
 .carousel {
@@ -1577,5 +1592,77 @@ html {
 
 .footer__svg:hover {
   fill: white;
+}
+
+.courses-main {
+  min-height: 1957px;
+  padding: 20px 0 120px 0;
+}
+
+.student {
+  min-height: 500px;
+}
+
+.carousel-students__item {
+  position: relative;
+  width: 1020px;
+  height: 344px;
+  margin: 0 auto;
+  padding: 64px 105px 64px 170px;
+  background: #fff;
+}
+
+.carousel-students__text {
+  width: 752px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #424551;
+}
+
+.carousel-students__bracers {
+  position: absolute;
+  left: 105px;
+}
+
+.carousel-students__image {
+  position: absolute;
+  bottom: 64px;
+}
+
+.carousel-students__title {
+  margin: 35px 0 4px 92px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  color: rgb(30, 33, 44);
+}
+
+.carousel-students__subtitle {
+  margin-left: 92px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #787A80;
+}
+
+.tns-nav {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.tns-nav > button {
+  width: 30px;
+  height: 0px;
+  border: 2px solid #B3B7BC;
+  background: #B3B7BC;
+  border-radius: 4px;
+  margin-right: 12px;
+}
+
+#tns2-mw {
+  margin: 0 auto;
+  width: 1024px;
 }
 /*# sourceMappingURL=maps/main.css.map */
